@@ -68,53 +68,66 @@ const price = 2000;
 console.log('Name: ', namee, ', price: ', price);
 */
 
-/*1*/
+/* 
 
+
+/*1*/
+/* 
 const myAge = 12;
 console.log(myAge)
 
 /*2*/
-
+/* 
 const myName = 'Matviy' ;
-console.log(myName)
+console.log(myName.length) 
 
 /*3*/
-
-const isStudent = ' True' ;
+/* 
+const isStudent = true ;
 console.log(isStudent)
 
 /*4*/
-
+/* 
 const myString = 'Never give up';
 console.log(myString)
 
 /*5*/
-
+/* 
 const addFirst = 2 ;
 const add = 10;
 const myNumber = addFirst + add;
 console.log(myNumber)
 
 /*6*/
-
+/* 
 const myNull = null ;
 console.log(myNull)
 
 /*7*/
-
+/* 
 const userName = prompt('Insert your name ');
 console.log(userName)
 
 /*8*/
-
+/* 
 const userAnswer  = confirm('Do you really want to leave the page' );
 console.log(userAnswer)
 
 /*9*/
-
+/* 
 const alert1 = alert('The action your going to take may be dangerous');
 const respond1 = confirm('Are you sure to continue');
 console.log(alert1)
 console.log(respond1)
 
-/*finish :D*/
+finish :D */
+
+
+const a = 6;
+const b = 6;
+console.log(a>=b)
+
+const c = 5;
+const d = '5'; 
+console.log(c==d)/*misuring just 5 and 5 */
+console.log(c===d)/*misuring 5 and 5 + misuring type of */
