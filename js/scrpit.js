@@ -122,12 +122,81 @@ console.log(respond1)
 
 finish :D */
 
-
+/*
 const a = 6;
 const b = 6;
 console.log(a>=b)
 
 const c = 5;
 const d = '5'; 
-console.log(c==d)/*misuring just 5 and 5 */
-console.log(c===d)/*misuring 5 and 5 + misuring type of */
+console.log(c==d)/*misuring just 5 and 5 
+console.log(c===d)misuring 5 and 5 + misuring type of */
+
+/*
+const valueA = '5';
+console.log(typeof valueA)
+console.log(typeof Number(valueA));
+*/
+
+const valueB = 'hello';
+console.log( Number(valueB));
+
+
+console.log(Number.parseInt('5px'))
+console.log(Number.parseInt('17.8hghghghg9'))
+console.log(Number.parseInt('skoa'))
+
+
+
+console.log(Number.parseFloat('5px'))
+console.log(Number.parseFloat('17.8hghghghg9'))
+console.log(Number.parseFloat('skoa'))
+
+
+const valueC = Number('51');
+console.log(Number.isNaN(valueC));
+
+
+const valueD = Number('kalabok');
+console.log(Number.isNaN(valueD));
+
+
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 ===0.3); 
+console.log((0.1 * 10 + 0.2 * 10) / 10);
+
+
+console.log(Math.floor(1.7));
+console.log(Math.ceil(1.3));
+console.log(Math.round(1.2));
+console.log(Math.round(1.5));
+console.log(Math.max(20, 27, 30, 24, 17));
+console.log(Math.min(5, 6, 4, 7, 1));
+console.log(Math.pow(2, 4));
+console.log(Math.random() * (10 - 1) +1);
+
+
+
+
+/*1*/
+
+const valueF = 10;
+const valueG = 23;
+const ValueTot = valueF * valueG;
+console.log(ValueTot)
+
+/*2*/
+
+console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18))
+console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18))
+
+/*3*/
+
+const k1 = parseInt('5px');
+const k2 = parseInt('12djd334');
+const k3 = parseInt('12.45asdwe12');
+const k4 = parseInt('qwqweewq');
+console.log(k1);
+console.log(k2);
+console.log(k3);
+console.log(k4);
