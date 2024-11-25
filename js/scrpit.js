@@ -1,7 +1,7 @@
-"use strict"
+/*"use strict"
 
 
-console.log("Hello Matviy")
+console.log("Hello Matviy")*/
 
 
 /*
@@ -136,7 +136,7 @@ console.log(c===d)misuring 5 and 5 + misuring type of */
 const valueA = '5';
 console.log(typeof valueA)
 console.log(typeof Number(valueA));
-*/
+
 
 const valueB = 'hello';
 console.log( Number(valueB));
@@ -178,19 +178,19 @@ console.log(Math.random() * (10 - 1) +1);
 
 
 
-/*1*/
+
 
 const valueF = 10;
 const valueG = 23;
 const ValueTot = valueF * valueG;
 console.log(ValueTot)
 
-/*2*/
+
 
 console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18))
 console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18))
 
-/*3*/
+
 
 const k1 = parseInt('5px');
 const k2 = parseInt('12djd334');
@@ -200,3 +200,55 @@ console.log(k1);
 console.log(k2);
 console.log(k3);
 console.log(k4);
+
+*/
+
+
+/*problems for 26/11/24*/
+
+/*1*/
+
+const daysInMonth = 31;
+const HoursInMonth = 24;
+const totalHours = daysInMonth * HoursInMonth;
+const MinuteInMonth = 1440 ;
+const totalMinute = MinuteInMonth * daysInMonth ;
+console.log(totalHours)
+console.log(totalMinute)
+
+/*2*/
+
+const energy = 200;
+const lostEnergy = 80;
+const health = 100;
+const lostHealth = 30;
+const finalEnergy = energy - lostEnergy;
+const finalHealth = health - lostHealth;
+console.log( 'energy:', finalEnergy)
+console.log( 'health:', lostHealth)
+
+/*3*/
+
+const gainedImport = 200;
+const discount = 10;
+const k10 = 200 / 10 ;
+const totalImport = gainedImport - k10;
+console.log('final price:', totalImport)
+
+/*4*/
+
+const floatNumber = 12.78;
+const roundDown = parseInt(12.78)
+console.log(roundDown)
+
+/*5*/
+
+const floatString = '45.67';
+const parsedFloat =  parseFloat('45.67');
+console.log(parsedFloat)
+
+/*6*/
+
+const intString = '123';
+const parsedInt = parseInt('123');
+console.log(parsedInt)
