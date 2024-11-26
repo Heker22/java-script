@@ -206,17 +206,15 @@ console.log(k4);
 
 /*problems for 26/11/24*/
 
-/*1*/
+/*1
 
 const daysInMonth = 31;
-const HoursInMonth = 24;
-const totalHours = daysInMonth * HoursInMonth;
-const MinuteInMonth = 1440 ;
-const totalMinute = MinuteInMonth * daysInMonth ;
-console.log(totalHours)
-console.log(totalMinute)
+const hoursInMonth = daysInMonth * 24;
+const minuteInMonth = hoursInMonth * 60;
+console.log(hou)
+console.log(minuteInMonth)
 
-/*2*/
+/*2
 
 const energy = 200;
 const lostEnergy = 80;
@@ -227,7 +225,7 @@ const finalHealth = health - lostHealth;
 console.log( 'energy:', finalEnergy)
 console.log( 'health:', lostHealth)
 
-/*3*/
+/*3
 
 const gainedImport = 200;
 const discount = 10;
@@ -235,20 +233,43 @@ const k10 = 200 / 10 ;
 const totalImport = gainedImport - k10;
 console.log('final price:', totalImport)
 
-/*4*/
+/*4
 
 const floatNumber = 12.78;
 const roundDown = parseInt(12.78)
 console.log(roundDown)
 
-/*5*/
+/*5
 
 const floatString = '45.67';
 const parsedFloat =  parseFloat('45.67');
 console.log(parsedFloat)
 
-/*6*/
+/*6
 
 const intString = '123';
 const parsedInt = parseInt('123');
 console.log(parsedInt)
+*/
+
+const number = 16;
+const valueH = Math.sqrt(number);
+console.log(valueH)
+
+/**/
+
+const celsius = 8 ;
+const fahrenheit = celsius  * 9 / 5 + 32;
+console.log('temperature:',fahrenheit)
+
+/**/
+
+const a = 3;
+const b = 4;
+const k = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+console.log('ipotenuse:', k )
+
+/**/ 
+
+const random = Math.floor(Math.random() * (19 - 3 + 1) ) + 3 ;
+console.log('random number:',random)
