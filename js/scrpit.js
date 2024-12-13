@@ -250,26 +250,100 @@ console.log(parsedFloat)
 const intString = '123';
 const parsedInt = parseInt('123');
 console.log(parsedInt)
-*/
+
 
 const number = 16;
 const valueH = Math.sqrt(number);
 console.log(valueH)
 
-/**/
+/*
 
 const celsius = 8 ;
 const fahrenheit = celsius  * 9 / 5 + 32;
 console.log('temperature:',fahrenheit)
 
-/**/
+/*
 
 const a = 3;
 const b = 4;
 const k = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 console.log('ipotenuse:', k )
 
-/**/ 
+/* 
 
 const random = Math.floor(Math.random() * (19 - 3 + 1) ) + 3 ;
 console.log('random number:',random)
+
+*/
+
+
+const message = 'hello' + 'javascript';
+console.log(message);/*hellojavascript*/
+
+
+const newMessage = 'hello' + 55;
+console.log( newMessage);/*hello55*/
+
+
+
+const a = 5 + '5';
+console.log(a);/*55*/
+
+
+
+const a2 = 5 + 5 + '5';
+console.log(a2);/*105*/
+
+
+
+console.log('Hello'. length);/*5*/
+
+
+
+console.log('Гарного вечора!'. length);/*15*/
+
+
+/*
+const a4 = 'Welcome to Paris!';
+console.log(a4.toLowerCase())
+
+
+
+const a5 = 'Welcome to Paris!';
+console.log(a5.toUpperCase())
+
+
+
+const a6 = 'Welcome to Paris!';
+console.log(a6.indexOf('to'))
+*/
+
+
+const a7 = 'Welcome to Paris!';
+console.log(a7.includes('Welcome'))
+
+
+
+const a8 = 'Welcome to Paris!';
+console.log(a8.startsWith('Wel'))
+
+
+const a9 = 'Welcome to Paris!';
+console.log(a9.endsWith('!'))
+
+
+
+const a10 = 'Welcome to Paris!';
+console.log(a10.padEnd(22,'!'))
+
+
+
+const a11 = 'Welcome to Paris!';
+console.log(a11.padStart(22,'W'))
+
+
+
+const nameee = 'Matviy';
+const years = 12;
+const message2 = `Hello!! My name is ${nameee}, and i'm ${years} years old`
+console.log(message2)
