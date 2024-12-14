@@ -318,7 +318,7 @@ const a6 = 'Welcome to Paris!';
 console.log(a6.indexOf('to'))
 */
 
-
+/*
 const a7 = 'Welcome to Paris!';
 console.log(a7.includes('Welcome'))
 
@@ -347,3 +347,33 @@ const nameee = 'Matviy';
 const years = 12;
 const message2 = `Hello!! My name is ${nameee}, and i'm ${years} years old`
 console.log(message2)
+
+/*
+
+
+/*problems for 16/12/24*/
+
+/*1*/
+
+const result = 5 + 5 + '5';
+console.log(result);
+
+/*2*/
+
+const email = 'userkalabok@gmail.com';
+console.log(email.includes('@'));
+console.log(email.length);
+
+/*3*/
+
+const name1 = 'Matviy';
+const fullName = `Hello!! My name is ${name1}.`
+console.log(fullName)
+
+/*4*/
+
+const firstName = 'Matviy';
+const payment = 1000;
+const fullPayment = alert(`Thanks ${firstName}, ${payment} euros to complete the payment.`);
+
+/*finish :D */
