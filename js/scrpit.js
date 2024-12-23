@@ -282,7 +282,7 @@ console.log(message);/*hellojavascript*/
 
 
 const newMessage = 'hello' + 55;
-console.log( newMessage);/*hello55*/
+console.log(newMessage);/*hello55*/
 
 
 
@@ -296,11 +296,11 @@ console.log(a2);/*105*/
 
 
 
-console.log('Hello'. length);/*5*/
+console.log('Hello'.length);/*5*/
 
 
 
-console.log('Гарного вечора!'. length);/*15*/
+console.log('Гарного вечора!'.length);/*15*/
 
 
 /*
@@ -353,27 +353,108 @@ console.log(message2)
 
 /*problems for 16/12/24*/
 
-/*1*/
+/*1
 
 const result = 5 + 5 + '5';
 console.log(result);
 
-/*2*/
+/*2
 
 const email = 'userkalabok@gmail.com';
 console.log(email.includes('@'));
 console.log(email.length);
 
-/*3*/
+/*3
 
 const name1 = 'Matviy';
 const fullName = `Hello!! My name is ${name1}.`
 console.log(fullName)
 
-/*4*/
+/*4
 
 const firstName = 'Matviy';
 const payment = 1000;
 const fullPayment = alert(`Thanks ${firstName}, ${payment} euros to complete the payment.`);
 
 /*finish :D */
+
+
+// falsy - 0, NaN, null, undefined, "", false.
+// truthy - всі інші значення (1, 5, '5', [], true)
+
+/*
+// and && - якщо одна з частин має false, в консолі отримаємо false
+
+const num = 20;
+const result = num > 10 && num < 30;
+console.log(result)
+
+// or || - 
+
+const number = 5;
+const result1 = num < 10 || num > 30; //true || false
+console.log(result1); //true
+
+// not !
+
+console.log(!true)//false
+console.log(!false)//true
+console.log(!1)//false
+console.log(!0)//true
+
+*/
+
+// if
+
+let cost = 0;
+const sub = 'pro';
+
+if(sub === 'pro'){
+    cost = 100;
+}
+
+if(sub === 'normal'){
+    cost = 100;
+}
+
+console.log(cost)//100
+console.log(cost)//0
+
+
+if( '0' ){
+    console.log('Hello!');
+}
+
+// if...else
+
+let cost2;
+const sub2 = 'pro';
+
+if(sub2 === 'pro'){
+    cost2 = 100;
+}
+else{
+    cost2 = 20;
+}
+console.log(cost2)
+
+
+// else...if
+
+let cost3;
+const sub3 = 'pro';
+
+if(sub3 === 'normal'){
+    cost3 = 0; 
+} else if(sub3 === 'pro'){
+    cost3 = 100; 
+} else if(sub3 === 'premium'){
+    cost3 = 200; 
+} else (console.log('item not founded'))
+
+console.log(cost3);
+ 
+
+
+
+
