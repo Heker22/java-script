@@ -405,15 +405,15 @@ console.log(!0)//true
 */
 
 // if
-
+/*
 let cost = 0;
 const sub = 'pro';
 
-if(sub === 'pro'){
+if (sub === 'pro') {
     cost = 100;
 }
 
-if(sub === 'normal'){
+if (sub === 'normal') {
     cost = 100;
 }
 
@@ -421,7 +421,7 @@ console.log(cost)//100
 console.log(cost)//0
 
 
-if( '0' ){
+if ('0') {
     console.log('Hello!');
 }
 
@@ -430,18 +430,18 @@ if( '0' ){
 let cost2;
 const sub2 = 'pro';
 
-if(sub2 === 'pro'){
+if (sub2 === 'pro') {
     cost2 = 100;
 }
-else{
+else {
     cost2 = 20;
 }
 console.log(cost2)
-
+*/
 
 // else...if
 
-let cost3;
+/*let cost3;
 const sub3 = 'pro';
 
 if(sub3 === 'normal'){
@@ -452,9 +452,111 @@ if(sub3 === 'normal'){
     cost3 = 200; 
 } else (console.log('item not founded'))
 
-console.log(cost3);
- 
+console.log(cost3);*/
+
+//ternani operatore (умова) ? {вираз якщо умова дає true} : {вираз якщо умова дає false}
+/*
+let type;
+const age = 20;
+if (age >= 18) {
+    type = 'adult'
+} else (
+    type = 'adult'
+)
+console.log(type)
+
+// terna variation
+
+const age2 = 20;
+const type2 = age >= 18 ? 'adult' : 'child';
+console.log(type2)
+*/
+// practice
+/*
+const num1 = 5;
+const num2 = 10;
+let biggerNumber;
+if(num1 > num2){
+    biggerNumber = num1
+}else(
+    biggerNumber = num2
+)
+console.log(biggerNumber)
+*/
+//terna variation
+/*
+const num1 = 5;
+const num2 = 10;
+const biggerNumber = num1 > num2 ? num1 : num2 ;
+console.log(biggerNumber)
+*/
 
 
+/*
+const balance = 1000;
+// let message;
+
+if(balance > 1){
+    let message = "Ваш баланс позитивний!"
+    console.log(message);
+    const a = 5;
+ } else {
+    let message = "Ваш баланс негативний!"
+    console.log(message);
+    const a = 10;
+ }
 
 
+// terna variation
+
+const message1 = balance > 1 ? 'Ваш баланс позитивний!' : "Ваш баланс негативний!" ;
+console.log(message1)
+
+*/
+/*
+const a1 = 10;
+const b = 20;
+let result;
+
+if (a1 + b < 4) {
+    result = 'Нижче';
+} else {
+    result = 'Вище';
+}
+
+// terna variation
+
+result = a1 + b < 4 ? 'Нижче' : 'Вище';
+console.log(result)
+*/
+
+/*
+const text = 'ECMAScript';
+let response = prompt('Яка “офіційна” назва JavaScript?')
+
+if(response === text){
+    alert('Правильно!')
+} else(
+    alert('Ви не знаєте? ECMAScript!')
+)
+*/
+//terna variation 
+/*
+const text = 'ECMAScript';
+let response = prompt('Яка “офіційна” назва JavaScript?')
+alert(response === text ? 'Правильно!' : 'Ви не знаєте? ECMAScript!');
+
+*/
+/*
+let sub = 'pro';
+
+if(sub === 'pro' || sub === 'vip'){
+    console.log('доступ надано')
+}else(
+    console.log('доступ не надано')
+)
+*/
+//terna variation
+
+let sub = 'pro';
+console.log(sub === 'pro' || sub === 'vip' ? 'доступ надано' : 'доступ не надано')
