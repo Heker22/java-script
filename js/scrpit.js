@@ -557,6 +557,15 @@ if(sub === 'pro' || sub === 'vip'){
 )
 */
 //terna variation
-
+/*
 let sub = 'pro';
 console.log(sub === 'pro' || sub === 'vip' ? 'доступ надано' : 'доступ не надано')
+*/
+
+/*homework for 30-12-24 (n4)*/
+
+/*4*/
+
+const number = 15;
+const type = number > 10 && number < 20 ? 'Число входить в діапазон від 10 до 20' : 'Число не входить в діапазон від 10 до 20'
+console.log(type)
