@@ -276,30 +276,30 @@ console.log('random number:',random)
 
 */
 
-
+/*
 const message = 'hello' + 'javascript';
 console.log(message);/*hellojavascript*/
 
-
+/*
 const newMessage = 'hello' + 55;
 console.log(newMessage);/*hello55*/
 
+/*
 
-
-const a = 5 + '5';
+const a1 = 5 + '5';
 console.log(a);/*55*/
 
-
+/*
 
 const a2 = 5 + 5 + '5';
 console.log(a2);/*105*/
 
-
+/*
 
 console.log('Hello'.length);/*5*/
 
 
-
+/*
 console.log('Гарного вечора!'.length);/*15*/
 
 
@@ -566,6 +566,160 @@ console.log(sub === 'pro' || sub === 'vip' ? 'доступ надано' : 'до
 
 /*4*/
 
+
+/*
 const number = 15;
 const type = number > 10 && number < 20 ? 'Число входить в діапазон від 10 до 20' : 'Число не входить в діапазон від 10 до 20'
 console.log(type)//'Число входить в діапазон від 10 до 20'
+*/
+
+/*practice switch*/
+
+//Перепишіть код нижче використовуючи одну конструкцію switch. Результат виведіть на екран. Данні отримайте з інпуту:
+let a = 1;
+
+/*
+if (a === 0) {
+   p.textContent = 0;
+}
+if (a === 1) {
+  p.textContent = 1;
+}
+
+
+if (a === 2 || a === 3) {
+  p.textContent = '2,3';
+}
+*/
+/*switch variant*/
+/*
+let result;
+
+switch( a ){
+    case 0 : 
+    result = 0;
+    break;
+
+    case 1 :
+    result = 1;
+    break;
+
+    case 2 : 
+    case 3 :
+    result = '2,3'
+    break;
+
+    default :
+    result = 'type is invalid'; 
+    
+}
+
+console.log(result)
+*/
+/*
+const numb = 99;
+let type;
+
+switch ( true ) {
+
+    case numb >= 55 && numb <= 99 :
+    type = 'Число потрапляє в діапазон';
+    break;
+
+    default :
+    type = "Число не потрапляє в діапазон";
+    
+    
+}
+
+console.log(type)
+*/
+/*
+const age = 55;
+let group;
+
+switch( true ){
+    case age >= 0 && age <= 16 :
+    group = 'child' ;
+    break;
+
+    case age >= 17 && age <= 60 :
+    group = 'adult';
+    break;
+
+    case age >= 61 && age <= 100 :
+    group = 'pensionere';
+
+    default :
+    group = 'aliens';
+
+
+}
+
+console.log(group)
+*/
+/*
+let options = 3;
+let message;
+
+switch(options){
+    case 1 :
+    message = 'Ви зможете забрати товар завтра з 12:00 в нашому офісі';
+    break;
+
+    case 2 :
+    message = 'Кур"єр доставить замовлення завтра з 9:00 до 18:00';
+    break;
+
+    case 3 :
+    message = 'Посилка буде відправлена сьогодні';
+    break;
+
+    default :
+    message =  'Вам передзвонит менеджер';
+
+}
+
+console.log(message)
+*/
+/*
+let b = 'Saturday';
+let message;
+
+switch (b) {
+    case 'Monday' || 'Tuesday' || 'Wednesday' || 'Thursday' || 'Friday':
+        message = 'робочий день';
+        break;
+
+    case 'Saturday' || 'Sunday':
+        message = 'вихідний день';
+        break;
+
+        default :
+        message = 'Invalid day :C';
+}
+
+console.log(message)
+*/
+
+const color = 'orange';
+let sign;
+
+switch(color){
+    case 'green' :
+    sign = 'go';
+    break;
+
+    case 'orange' :
+    sign = 'wait';
+    break;
+
+    case 'red' :
+    sign = 'stop';
+    break;
+
+    default :
+    sign = 'You are getting arrested';
+}
+
+console.log(sign)
