@@ -568,4 +568,4 @@ console.log(sub === 'pro' || sub === 'vip' ? 'доступ надано' : 'до
 
 const number = 15;
 const type = number > 10 && number < 20 ? 'Число входить в діапазон від 10 до 20' : 'Число не входить в діапазон від 10 до 20'
-console.log(type)
+console.log(type)//'Число входить в діапазон від 10 до 20'
