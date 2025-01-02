@@ -701,7 +701,7 @@ switch (b) {
 
 console.log(message)
 */
-
+/*
 const color = 'orange';
 let sign;
 
@@ -723,3 +723,60 @@ switch(color){
 }
 
 console.log(sign)
+
+*/
+
+
+/*дз для 3/1/25*/
+
+const drink = 'tea';
+let message;
+
+switch (drink) {
+    case 'coffee':
+        message = 'here it is your coffe';
+        break;
+
+    case 'tea':
+        message = 'here it is your tea';
+        break;
+
+    case 'fruit juice':
+        message = 'here it is your fruit juice';
+        break;
+
+    default:
+        message = 'sorry but we are close >:C';
+}
+
+console.log(message)
+
+
+/*3*/
+
+const month = 1;
+let season;
+
+switch (month) {
+
+    case 12 || 1 || 2 :
+        season = 'Winter';
+        break;
+
+    case 3 || 4 || 5 :
+        season = 'Spring';
+        break;
+
+    case 6 || 7 || 8 :
+        season = 'Summer';
+        break;
+
+    case 9 || 10 || 11 :
+        season = 'Autumn';
+        break;
+
+    default:
+        season = 'not a month';
+}
+
+console.log(season)
