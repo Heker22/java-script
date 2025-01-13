@@ -727,7 +727,7 @@ console.log(sign)
 */
 
 
-/*дз для 3/1/25*/
+/*дз для 3/1/25
 
 const drink = 'tea';
 let message;
@@ -752,7 +752,7 @@ switch (drink) {
 console.log(message)
 
 
-/*3*/
+/*3
 
 const month = 1;
 let season;
@@ -780,3 +780,27 @@ switch (month) {
 }
 
 console.log(season)
+*/
+
+/*cycles
+
+const max = 10;
+
+for (let i = 1; i < max; i += 1){
+    console.log(i);
+}
+
+*/
+/*
+const target = 3;
+let sum = 0; 
+for (let i = 0; i <= target; i++){
+    sum += i;
+}
+console.log(sum)
+*/
+
+const max = 10;
+for (let i = 0; i < max; i++){
+    console.log(`${max} % ${i} =  `, max % i );
+}
