@@ -799,8 +799,31 @@ for (let i = 0; i <= target; i++){
 }
 console.log(sum)
 */
-
+/*
 const max = 10;
 for (let i = 0; i < max; i++){
     console.log(`${max} % ${i} =  `, max % i );
+}
+*/
+
+/*дз для 17/01/24*/
+
+/*1*/
+
+let days = 0;
+
+while (days < 10) {
+
+    console.log('day: ', days);
+    days += 1;
+
+}
+
+/*2*/
+const max = 11;
+const numb = 7;
+
+for (let i = 0; i < max ; i++){
+   
+    console.log(`$(numb) * $(i) = `, numb * i );
 }
