@@ -808,7 +808,7 @@ for (let i = 0; i < max; i++){
 
 /*дз для 17/01/24*/
 
-/*1*/
+/*1
 
 let days = 0;
 
@@ -818,12 +818,87 @@ while (days < 10) {
     days += 1;
 
 }
+*/
+/*2
 
-/*2*/
 const max = 11;
 const numb = 7;
 
 for (let i = 0; i < max ; i++){
    
-    console.log(`$(numb) * $(i) = `, numb * i );
+    console.log(`${numb} * ${i} = `, numb * i );
 }
+*/
+
+/*exercise for break,continue*/
+
+/*1
+
+let numb = 0;
+const n = 5;
+
+while ( numb < n ){
+    numb += 1;
+    console.log(numb)
+
+}
+*/
+/*2
+
+let numb = 0;
+const n = 5;
+
+do {
+    numb += 1;
+    console.log(numb)
+}
+
+while(numb < n)
+*/
+
+/*3
+
+let numb = 0;
+const n = 5;
+
+for ( i = 0; i < n; i++){
+
+    numb += 1;
+    console.log(numb)
+
+}
+*/
+/*
+const max = 20;
+
+
+ for ( let i = 0; i < max; i++){
+    
+    if ( i % 2 !== 0 ){
+
+        continue;
+
+    }
+
+    console.log(i)
+}
+
+*/
+/*
+let total = 0;
+let subjectsCount = 0;
+
+for (let i = 0; i <= 10; i++){
+
+    let score = parseFloat(prompt(`Insert point ${i}`));
+    total += score;
+    subjectsCount++;
+    let average = total / subjectsCount;
+
+    console.log(`Media: ${average} ` );
+
+    if( average < 7 ){
+        break
+    }
+}
+*/
