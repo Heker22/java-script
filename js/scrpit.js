@@ -902,3 +902,35 @@ for (let i = 0; i <= 10; i++){
     }
 }
 */
+
+
+/*дз для 20/1/25 */
+
+/*1*/
+
+const n = 20;
+
+for (let i = 0; i < 25; i++){
+
+    if ( i >= n ){
+
+        break;
+    }
+
+    console.log(i)
+}
+
+/*2*/
+
+const n1 = 20;
+let i1 = 0;
+
+while (i1 < n1){
+    i1 += 1;
+
+    if( i1 % 2 === 1 ){
+        continue;
+    }
+
+    console.log( 'number:', i1)
+}
