@@ -904,9 +904,9 @@ for (let i = 0; i <= 10; i++){
 */
 
 
-/*дз для 20/1/25 */
+/*дз для 20/1/25
 
-/*1*/
+/*1
 
 const n = 20;
 
@@ -920,7 +920,7 @@ for (let i = 0; i < 25; i++){
     console.log(i)
 }
 
-/*2*/
+/*2
 
 const n1 = 20;
 let i1 = 0;
@@ -933,4 +933,32 @@ while (i1 < n1){
     }
 
     console.log( 'number:', i1)
+}
+
+*/
+
+/*massive exercise*/
+
+/*1
+
+const arr1 = [1, 5, '4', 'hello']
+
+const arr2 = [true,2, {}, ['a'], 222 ]
+
+console.log(arr1[1] + arr2[1] )
+*/
+
+/*2
+
+const arr3 = ['sigma', 'gelato', 'gelateria', 'holovatyi']
+
+console.log(arr3[0], )
+arr3[3] = 'holovata' ;
+console.log(arr3 )
+console.log(arr3.length)
+*/
+
+const clients = ['Bob', 'Sam', 'Nick', 'Alex', 'Kolin', 'Tom',  ]
+for(let i = 0; i < clients.length; i++){
+    console.log('Clients name:', clients[i])
 }
