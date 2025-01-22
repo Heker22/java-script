@@ -957,8 +957,25 @@ arr3[3] = 'holovata' ;
 console.log(arr3 )
 console.log(arr3.length)
 */
-
+/*
 const clients = ['Bob', 'Sam', 'Nick', 'Alex', 'Kolin', 'Tom',  ]
 for(let i = 0; i < clients.length; i++){
     console.log('Clients name:', clients[i])
 }
+*/
+
+/*дз для 24/1/25 */
+
+/*1*/
+
+const croissant = [ 48, 35, 74,];
+
+croissant[1] = 10;
+console.log(croissant)
+
+/*2*/
+
+const bbq = ['Leao', 'Morata', 'Pulisic',] ;
+
+bbq[3] = 'Ac Milan' ;
+console.log(bbq)
