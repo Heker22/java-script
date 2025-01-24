@@ -966,16 +966,53 @@ for(let i = 0; i < clients.length; i++){
 
 /*дз для 24/1/25 */
 
-/*1*/
+/*1
 
 const croissant = [ 48, 35, 74,];
 
 croissant[1] = 10;
 console.log(croissant)
 
-/*2*/
+/*2
 
 const bbq = ['Leao', 'Morata', 'Pulisic',] ;
 
 bbq[3] = 'Ac Milan' ;
 console.log(bbq)
+*/
+/*
+const clients = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin', 'Tom'] ;
+for (const client of clients){
+    console.log(client);
+}
+
+const string = 'Hello!';
+for (const character of string){
+    console.log(character);
+}
+
+*/
+/*
+const clients = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin', 'Tom'] ;
+const clientFind = 'Kolin';
+let message;
+for(const client of clients){
+    if(client===clientFind){
+        message='Your not welcome'
+        break;
+    }
+    message = 'gyifgiq'
+}
+
+console.log(message)
+*/
+/*
+const numbers = [1, 3, 14, 19, 2, 87, 54, 6];
+const threshold = 10;
+for (let i = 0; i < numbers.length; i+= 1) {
+    if (numbers[i] < threshold) {
+        continue;
+    }
+    console.log(`Число більше ніж ${threshold}: ${numbers[i]}`)
+}
+*/
