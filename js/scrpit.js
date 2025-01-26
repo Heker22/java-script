@@ -1015,4 +1015,85 @@ for (let i = 0; i < numbers.length; i+= 1) {
     }
     console.log(`Число більше ніж ${threshold}: ${numbers[i]}`)
 }
+
+
+/*дз для 27/1/25 */
+
+/*1
+
+const arr1 = [12, 87, 3, 79];
+let total = 12 + 87 + 3 + 79;
+
+console.log(total);
+
+/*2
+
+const arr2 = [45, 5, 7, 14, 6];
+
+for (let i = 0; i < arr2.length; i++) {
+    console.log(arr2[i])
+}
+
+/*3 (?)
+
+const arr3 = ['Nick', 'Sigma', 'Alex', 'Kolin', 'Tom'];
+const max = 12345;
+
+for (let i = 0; i < max.length; i++) {
+    console.log(arr3)
+}
+
+/*4
+
+const numbers = [1, 3, 14, 19, 2, 87, 54, 6, 8, 10];
+const MaxNumber = 87;
+let message = 'This is not the max value' ;
+/*
+for ( const number of numbers){
+    if ( number > MaxNumber ){
+        continue
+    }
+
+    message = 'This is  the max value' ;
+
+    console.log(message,':', number)
+}
+
+for ( let i = 0; i < numbers.length; i += 1){
+
+    if ( i > MaxNumber){
+
+        continue
+    } 
+
+    message = 'This is  the max value' ;
+
+    console.log(numbers[i])
+}
+*/
+
+/*5*/
+const matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+    [7, 8],
+    [9, 10]
+]; 
+/*
+for (let i = 0; i < matrix.length; i+= 1){
+    
+    if( i === 10 % 2 === 1 ){
+        continue
+    }
+
+    console.log(matrix)
+}
+
+
+console.log(matrix[0][1]);
+console.log(matrix[1][1]);
+console.log(matrix[2][1]);
+console.log(matrix[3][1]);
+console.log(matrix[4][1]);
 */
