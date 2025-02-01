@@ -1022,9 +1022,15 @@ for (let i = 0; i < numbers.length; i+= 1) {
 /*1
 
 const arr1 = [12, 87, 3, 79];
-let total = 12 + 87 + 3 + 79;
+let sum = 0;
 
-console.log(total);
+for (let numb of arr1 ){
+    sum += numb
+    
+}
+
+console.log(sum);
+
 
 /*2
 
@@ -1034,66 +1040,114 @@ for (let i = 0; i < arr2.length; i++) {
     console.log(arr2[i])
 }
 
-/*3 (?)
+/*3 
 
-const arr3 = ['Nick', 'Sigma', 'Alex', 'Kolin', 'Tom'];
-const max = 12345;
+const arr3 = ['Nick', 'Sigma', 'Alex', 'Kolin', 'Tommaso', 'Matviy'];
 
-for (let i = 0; i < max.length; i++) {
-    console.log(arr3)
+for (let string of arr3) {
+    if(string.length > 5 ){
+        console.log(string)
+    }
 }
 
 /*4
 
 const numbers = [1, 3, 14, 19, 2, 87, 54, 6, 8, 10];
-const MaxNumber = 87;
-let message = 'This is not the max value' ;
-/*
-for ( const number of numbers){
-    if ( number > MaxNumber ){
-        continue
+let message = 'This is not the max value';
+let test = numbers[0]
+
+for (let number of numbers) {
+    if (number > test) {
+        test = number
     }
 
-    message = 'This is  the max value' ;
-
-    console.log(message,':', number)
 }
 
-for ( let i = 0; i < numbers.length; i += 1){
+console.log(test)
 
-    if ( i > MaxNumber){
+/*5
+const matrix = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]; 
 
-        continue
-    } 
 
-    message = 'This is  the max value' ;
+for(let numb of matrix){
+    if( numb % 2 === 0  ){
 
-    console.log(numbers[i])
+        console.log(numb)
+    }
+       
+}
+*/
+/*practice for methods
+
+const message = 'Hello Javascript! Hello, bye';
+console.log(message.split('!')) /*in this case ! is the element that divides*/
+//
+//const names = [ 'Bob', 'Alex', 'Nick' ]; 
+//console.log(names.join(' , '));
+
+//index of
+/*
+const names = [ 'Bob', 'Alex', 'Nick' ];
+console.log(names.indexOf('Nick'))//2
+console.log(names.indexOf('Anna'))//-1
+*/
+
+//includes
+//console.log(names.includes('Alex'))//true
+//console.log(names.includes('Tom'))//false
+/*
+const fruit = 'apple' 
+if(fruit === 'apple' || fruit === 'cherry'){
+    console.log('it is a red fruit')
+}
+
+
+const redFruits = ['apple', 'cherry', 'strawberry' ]
+const fruit = 'cherry';
+if(redFruits.includes(fruit)){
+    console.log('it is a red fruit')
 }
 */
 
-/*5*/
-const matrix = [
-    [1, 2],
-    [3, 4],
-    [5, 6],
-    [7, 8],
-    [9, 10]
-]; 
 /*
-for (let i = 0; i < matrix.length; i+= 1){
-    
-    if( i === 10 % 2 === 1 ){
-        continue
-    }
+const numbers = [];
+numbers.push(1);
+console.log(numbers);
 
-    console.log(matrix)
-}
+numbers.push(2);
+console.log(numbers);
 
-
-console.log(matrix[0][1]);
-console.log(matrix[1][1]);
-console.log(matrix[2][1]);
-console.log(matrix[3][1]);
-console.log(matrix[4][1]);
+console.log(numbers);
+console.log(numbers.pop());
+console.log(numbers)
 */
+
+//pop and push
+/*
+const names = [ 'Bob', 'Alex', 'Nick' ];
+names.pop();
+console.log(names)
+names.pop();
+console.log(names)
+names.push('Tom');
+console.log(names)
+*/
+
+
+//shift and unshift
+/*
+const names = [ 'Bob', 'Alex', 'Nick' ];
+names.shift()
+console.log(names)
+
+names.unshift('Matviy')
+console.log(names)
+*/
+
+//slice
+
+const clients = [ 'Bob', 'Jhon', 'Matviy', 'Alex', 'Marry' ];
+console.log(clients.slice(1, 3));//'Jhon', 'Matviy'
+console.log(clients.slice(1));//'Jhon', 'Matviy', 'Alex', 'Marry'
+console.log(clients.slice());//'Bob', 'Jhon', 'Matviy', 'Alex', 'Marry'
+console.log(clients.slice(-2));//'Alex', 'Marry'
