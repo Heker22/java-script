@@ -1145,9 +1145,43 @@ console.log(names)
 */
 
 //slice
-
+/*
 const clients = [ 'Bob', 'Jhon', 'Matviy', 'Alex', 'Marry' ];
 console.log(clients.slice(1, 3));//'Jhon', 'Matviy'
 console.log(clients.slice(1));//'Jhon', 'Matviy', 'Alex', 'Marry'
 console.log(clients.slice());//'Bob', 'Jhon', 'Matviy', 'Alex', 'Marry'
 console.log(clients.slice(-2));//'Alex', 'Marry'
+*/
+
+
+
+/*дз для 3/2/25 */
+
+/*1*/
+
+const numbers = [ 1, 2, 3, 4, 5 ];
+
+numbers.push(6);
+console.log(numbers)
+
+/*2*/
+
+const names = [ 'Bob', 'Alex', 'Nick' ];
+names.pop('Nick')
+console.log(names)
+
+/*3*/
+
+
+const matrix = [ 1, 2, 3, 4, 5, 7, 8, 9, 10 ];
+console.log(matrix.slice(0, 5))
+
+/*4*/
+
+const crazy = [ 1, 2, 3, 4, 5 ];
+console.log(crazy.indexOf(3))
+
+/*5*/
+
+const name7 = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin'] ;
+console.log(name7.join(','))
