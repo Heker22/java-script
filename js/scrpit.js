@@ -1157,31 +1157,97 @@ console.log(clients.slice(-2));//'Alex', 'Marry'
 
 /*дз для 3/2/25 */
 
-/*1*/
+/*1
 
 const numbers = [ 1, 2, 3, 4, 5 ];
 
 numbers.push(6);
-console.log(numbers)
+console.log(numbers);
 
-/*2*/
+/*2
 
 const names = [ 'Bob', 'Alex', 'Nick' ];
 names.pop('Nick')
-console.log(names)
+console.log(names);
+
+/*3
+
+const matrix = [ 1, 2, 3, 4, 5, 7, 8, 9, 10 ];
+console.log(matrix.slice(0, 5));
+
+/*4
+
+const crazy = [ 1, 2, 3, 4, 5 ];
+console.log(crazy.indexOf(3));
+
+/*5
+
+const name7 = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin'] ;
+console.log(name7.join(','));
+
+*/
+
+/*splice
+
+const counts = [ 1, 2, 3, 4, 5 ];
+const newCounts = counts.splice(0, 3);
+console.log(counts),// [4, 5]
+console.log(newCounts);// [1, 2, 3]
+
+
+
+const colors = [ 'red', 'yellow', 'pink' ];
+colors.splice(2,0,'purple', 'black', 'green');
+console.log(colors);//['red', 'yellow', 'purple', 'black', 'green', 'pink']
+
+
+const lang = [ 'C', 'C++', 'Java', 'Java-scipt', 'Python', ];
+lang.splice(1, 3, 'PHP', 'Go', 'Swift');
+console.log(lang)//['C', 'PHP', 'Go', 'Swift', 'Python']
+*/
+
+/*concat
+
+const arr1 = ['Bob', 'Nick', 'Sam',];
+const arr2 = ['Alex', 'Kolin'];
+const arr = arr1.concat(arr2)
+console.log(arr)//['Bob', 'Nick', 'Sam', 'Alex', 'Kolin']
+
+*/
+
+//practice
+
+/*1*/
+
+const array1 = [5, 10, 15, 20];
+const array2 = [10, 20, 30];
+const arr3 = array1.concat(array2);
+let total = 0;
+
+for(let i = 0; i < arr3.length; i++){
+    total += arr3[i]
+    
+}
+
+console.log(total);
+
+
+/*2*/
+
+const message = 'Welcome to Ukraine!'
+const newMessage = message.split('') ;
+const index = newMessage.indexOf('l') ; 
+const togheter = newMessage.join('');
+
+console.log(newMessage);
+console.log(index);
+console.log(togheter);
 
 /*3*/
 
+const players = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin'];
 
-const matrix = [ 1, 2, 3, 4, 5, 7, 8, 9, 10 ];
-console.log(matrix.slice(0, 5))
-
-/*4*/
-
-const crazy = [ 1, 2, 3, 4, 5 ];
-console.log(crazy.indexOf(3))
-
-/*5*/
-
-const name7 = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin'] ;
-console.log(name7.join(','))
+for ( let i = 0; i < players.length; i++){
+    players[i] = players[i] + '-' + (i+1) 
+}
+console.log(players)
