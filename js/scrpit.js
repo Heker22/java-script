@@ -1217,7 +1217,7 @@ console.log(arr)//['Bob', 'Nick', 'Sam', 'Alex', 'Kolin']
 
 //practice
 
-/*1*/
+/*1
 
 const array1 = [5, 10, 15, 20];
 const array2 = [10, 20, 30];
@@ -1232,7 +1232,7 @@ for(let i = 0; i < arr3.length; i++){
 console.log(total);
 
 
-/*2*/
+/*2
 
 const message = 'Welcome to Ukraine!'
 const newMessage = message.split('') ;
@@ -1243,7 +1243,7 @@ console.log(newMessage);
 console.log(index);
 console.log(togheter);
 
-/*3*/
+/*3
 
 const players = ['Bob', 'Nick', 'Sam', 'Alex', 'Kolin'];
 
@@ -1251,3 +1251,43 @@ for ( let i = 0; i < players.length; i++){
     players[i] = players[i] + '-' + (i+1) 
 }
 console.log(players)
+
+*/
+
+
+/*дз для 7/2/25 */
+
+
+/*1*/
+
+const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
+
+/*
+for ( let i = 0; i < friends.length ; i++ ){
+
+     friends.join(',')
+}
+
+console.log(friends);
+*/
+
+friends.join(',');
+console.log(friends)
+
+/*2*/
+
+const cards = [
+    'Карточка-1',
+    'Карточка-2',
+    'Карточка-3',
+    'Карточка-4',
+    'Карточка-5',
+]; 
+
+const cardToRemove = 'Карточка-3'; 
+ 
+const cardToInsert = 'Карточка-6'; 
+
+const cardToUpdate = 'Карточка-4'; 
+
+console.log(cards.splice(2,1));
