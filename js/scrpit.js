@@ -1282,12 +1282,21 @@ const cards = [
     'Карточка-3',
     'Карточка-4',
     'Карточка-5',
-]; 
+];
 
-const cardToRemove = 'Карточка-3'; 
- 
-const cardToInsert = 'Карточка-6'; 
 
-const cardToUpdate = 'Карточка-4'; 
 
-console.log(cards.splice(2,1));
+
+//const cardToRemove = 'Карточка-3'; 
+//cards.splice(2,1);
+//console.log(cards)
+
+
+
+//const cardToInsert = 'Карточка-6';
+//cards.splice(5, 0, 'Карточка-6')
+//console.log(cards);
+
+//const cardToUpdate = 'Карточка-4'; 
+//cards.splice(3, 1, 'New-card');
+//console.log(cards);
