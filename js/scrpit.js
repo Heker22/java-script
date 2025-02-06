@@ -1274,7 +1274,7 @@ console.log(friends);
 friends.join(',');
 console.log(friends)
 
-/*2*/
+/*2
 
 const cards = [
     'Карточка-1',
