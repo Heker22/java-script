@@ -1258,7 +1258,7 @@ console.log(players)
 /*дз для 7/2/25 */
 
 
-/*1*/
+/*1
 
 const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
 
@@ -1269,7 +1269,7 @@ for ( let i = 0; i < friends.length ; i++ ){
 }
 
 console.log(friends);
-*/
+
 
 friends.join(',');
 console.log(friends)
@@ -1300,3 +1300,42 @@ const cards = [
 //const cardToUpdate = 'Карточка-4'; 
 //cards.splice(3, 1, 'New-card');
 //console.log(cards);
+*/
+
+
+/*functions*/
+
+//function add(a, b, c){
+//    return a + b + c;
+//}
+/*
+
+add(2, 5, 8);
+print('text');
+function add(a, b, c) {
+    //console.log(a + b + c);
+    return a + b + c;
+}
+function print(str) {
+    console.log(str);
+}
+*/
+
+
+/*pseudo masive*/
+
+const sum = function () {
+
+    let total = 0;
+    for (const argument of arguments) {
+        total += argument
+    }
+
+    return total;
+
+
+}
+
+console.log(sum(1, 2, 3));
+console.log(sum(1, 2, 3, 4, 5, 6));
+console.log(sum(1, 10));
