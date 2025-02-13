@@ -1322,7 +1322,7 @@ function print(str) {
 */
 
 
-/*pseudo masive*/
+/*pseudo masive
 
 const sum = function () {
 
@@ -1339,3 +1339,16 @@ const sum = function () {
 console.log(sum(1, 2, 3));
 console.log(sum(1, 2, 3, 4, 5, 6));
 console.log(sum(1, 10));
+*/
+
+
+/*дз для 14/2/25 */
+
+/*1
+
+print('Привіт JavaScript');
+const hello1 = function () {
+
+    return print;
+}
+    */
