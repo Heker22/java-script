@@ -1346,9 +1346,82 @@ console.log(sum(1, 10));
 
 /*1
 
-print('Привіт JavaScript');
+
 const hello1 = function () {
 
-    return print;
+    return 'Hello Java-script!';
 }
-    */
+
+console.log(hello1());
+*/
+
+/*2
+
+const hello2 = function (name){
+
+    console.log(`Hello ${name}`)
+    
+}
+
+console.log(hello2('Matviy'))
+*/
+
+/*3
+
+const mal = function( m, n ){
+  
+    console.log(m + n);
+    console.log(m * n);
+    console.log(m - n);
+
+}
+
+
+
+mal(10,5);
+mal(78,65);
+
+
+/*Напиши функцію яка повертає найбільше число в масиві:
+
+let array = [1, 3, 2, 5, 4, 15, 20];
+
+const max = function (array){
+
+    let numb = array[0];
+
+    for (let arr of array){
+
+        if( arr > numb){
+            numb = arr
+        }
+
+    }
+
+    return numb;
+
+}
+
+console.log(max(array));
+
+*/
+
+/*Напиши функцію logItems(array), яка отримує масив і використовує цикл for, який для кожного елемента масиву буде виводити в консоль повідомлення в форматі [номер елемента] - [значення елемента].
+
+Нумерація повинна починатися з 1. Наприклад, для першого елемента масиву ['Mango', 'Poly', 'Ajax'] з індексом 0 буде виведено '1 - Mango', а для індексу 2 виведе '3 - Ajax'.*/
+
+const logItems = function (array) {
+
+    for (let i = 0; i < array.length; i++){
+        console.log(`${i + 1}  - ${array[i]}  `)
+    }
+
+    
+};
+
+/*
+ * Виклич функції для перевірки працездатності твоєї реалізації.
+ */
+logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
+
+logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
