@@ -1431,14 +1431,14 @@ logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
 
 
 Напиши скрипт підрахунку вартості гравіювання прикрас. Для цього створи функцію calculateEngravingPrice(message, pricePerWord) приймаючу рядок (в рядку будуть тільки слова і прогалини) і ціну гравіювання одного слова, і повертає ціну гравіювання всіх слів в рядку.
-
-const calculateEngravingPrice = function (message, pricePerWord) {
-  // твій код
+*/
+const calculateEngravingPrice = function (message, pricePerWord ) {
+  
 };
 
-/*
- * Виклич функції для перевірки працездатності твоєї реалізації.
- */
+
+ 
+ 
 console.log(
     calculateEngravingPrice(
       'Proin sociis natoque et magnis parturient montes mus',
